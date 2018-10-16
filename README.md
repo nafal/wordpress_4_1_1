@@ -6,7 +6,7 @@ apt-get update
 apt-get upgrade -y
 apt-get dist-upgrade -y
 apt-get autoremove -y
-apt-get install apache2 php php-cli php-fpm php-gd php-ssh2 libapache2-mod-php php-mcrypt php-mysql git unzip zip postfix php-curl mailutils php-json php-xml -y
+apt-get install apache2 php php-cli php-fpm php-gd php-ssh2 libapache2-mod-php php-mysql git unzip zip postfix php-curl mailutils php-json php-xml -y
 a2enmod rewrite headers
 phpenmod mcrypt
 
